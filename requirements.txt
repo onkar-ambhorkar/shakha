@@ -5,6 +5,8 @@ django-birthday==0.1.4
 django-multiselectfield==0.1.12
 django-phonenumber-field==7.3.0
 environ==1.0
+gunicorn==21.2.0
+packaging==24.0
 phonenumberslite==8.13.33
 sqlparse==0.4.4
 typing_extensions==4.10.0
