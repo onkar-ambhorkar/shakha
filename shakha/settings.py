@@ -46,8 +46,6 @@ INSTALLED_APPS = [
     'guru_govind_singh'
 ]
 
-INSTALLED_APPS += ("django_createsuperuserwithpassword", )
-
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',

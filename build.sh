@@ -6,4 +6,5 @@ poetry install
 
 python manage.py makemigrations
 python manage.py migrate
-python manage.py createsuperuserwithpassword --username admin --password admin --email admin@example.org --preserve
+
+./manage.py shell -c "from django.contrib.auth.models import User; User.objects.create_superuser('admin', 'admin@example.com', 'admin')"
