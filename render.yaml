@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: your_django_app_name
+    name: shakha
     buildCommand: "./build.sh"
     env: python
     startCommand: "gunicorn shakha.wsgi:application"
