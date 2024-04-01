@@ -15,6 +15,8 @@
 > python manage.py migrate
 >
 > python manage.py createsuperuser
+> 
+>  python manage.py createsuperuserwithpassword --username admin --password admin --email admin@example.org --preserve
 
 
 ### Dependencies
