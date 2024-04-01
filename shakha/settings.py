@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "django-createsuperuserwithpassword",
     'phonenumber_field',
     'multiselectfield',
     "shakha_dayitva",
@@ -46,6 +45,8 @@ INSTALLED_APPS = [
     'society',
     'guru_govind_singh'
 ]
+
+INSTALLED_APPS += ("django_createsuperuserwithpassword", )
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
