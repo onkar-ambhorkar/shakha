@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "django_createsuperuserwithpassword",
+    "django-createsuperuserwithpassword",
     'phonenumber_field',
     'multiselectfield',
     "shakha_dayitva",
