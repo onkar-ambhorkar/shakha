@@ -81,8 +81,13 @@ WSGI_APPLICATION = 'shakha.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'HOST': 'illegally-capital-mudfish-iad.a1.pgedge.io',
+        'USER': 'admin',
+        'NAME': 'patdb',
+        'DATABASE': 'patdb',
+        'PASSWORD': 'rRxj92i29q6a23cUPV472fOT',
+        'SSLMODE': 'require'
     }
 }
 
